@@ -1,9 +1,9 @@
 export const BaseInfo = {
     name: "Bhumi Mulani",
-    position: "Data Science Intern",
+    position: "Data Science Intern & MCA Student",
     description:
       "I am a MCA student",
-    profilePic: "/images/IMG_3436.jpg",
+    profilePic: "/images/IMG_0284.jpg",
   };
   
   export const aboutInfo = {
