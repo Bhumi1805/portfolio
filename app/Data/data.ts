@@ -1,3 +1,4 @@
+
 export const BaseInfo = {
     name: "Bhumi Mulani",
     position: "Data Science Intern & MCA Student",
@@ -7,15 +8,70 @@ export const BaseInfo = {
   };
   
   export const aboutInfo = {
-    title: "Crafting Web Application with Passion and Precision",
-    description:
-      "At webdev warriors, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
-    client: "50+",
-    experience: "3+",
-    project: "200+",
-    website: "100+",
+    title: "Aspiring Developer with a Passion for Code & Creativity",
+    description:"an MCA student and a dedicated coding enthusiast currently gaining hands-on experience as an intern. My journey in technology is driven by a deep curiosity and a constant desire to learn and grow. I thrive on solving problems through code, exploring new tools and frameworks, and building solutions that make a difference. Whether it's front-end design, back-end development, or API integration, I approach every project with creativity, precision, and a love for innovation.",  
   };
-  
+
+ export const aboutDetails = [
+  {
+    id: 1,
+    title: "Education",
+    description: [
+      "Pursuing Master of Computer Applications (MCA) from VESIT with a strong focus on software development and web technologies.",
+      "Completed my bachelor's degree (BCA) from S K Somaiya Univesity.",
+      "Secured 97% in HSC from K.J. Somaiya College of Science and Commerce."
+    ]
+  },
+  {
+    id: 2,
+    title: "Internship",
+    description: [
+      "Currently gaining practical experience as an intern at SelectAI, working on real-world projects and enhancing my technical skills.",
+      "Previously interned for one month at White Warriors.",
+      "Contributed to key projects like synthetic data generation using Pandas and Flutter app development."
+    ]
+  },
+  {
+    id: 3,
+    title: "Certifications",
+    description: [
+      "Hands-on IoT & Robotics Workshop (PNT Robotics).",
+      "AWS Cloud Practitioner Essentials (Coursera).",
+      "Building a Text-Based Bank in Java (Coursera).",
+      "Hands-on Tableau Workshop (S K Somaiya).",
+      "Advanced MS Excel Workshop (S K Somaiya)."
+    ]
+  },
+  {
+    id: 4,
+    title: "Achievements",
+    description: [
+      "Secured 1st Rank in the First Year of BCA, honored with a Trophy and Certificate.",
+      "Achieved 2nd Rank in the Second Year of BCA, awarded a Certificate of Excellence.",
+      "Attained 2nd Rank in the Final Year of BCA, recognized with a Certificate of Merit."
+    ]
+  },
+  {
+    id: 5,
+    title: "Passion for Coding",
+    description: [
+      "Love turning ideas into reality through code.",
+      "Enjoy solving complex problems through innovative solutions.",
+      "Continuously learning and exploring new technologies."
+    ]
+   
+  },
+  {
+    id: 6,
+    title: "Interests",
+    description: [
+      "Reading books and expanding knowledge.",
+      "Improving vocabulary and communication skills.",
+      "Traveling to explore new places and cultures."
+    ]
+  }
+];
+
   export const servicesData = [
     {
       id: 1,

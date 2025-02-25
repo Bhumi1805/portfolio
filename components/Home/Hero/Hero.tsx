@@ -18,8 +18,8 @@ const Hero = () => {
                     md:leading-[3rem] lg:leading-[3.5rem] xl:leading-[4rem] text-white"> {BaseInfo.position}
                         </h1>
                         {/* Description */}
-                        <p className="mt-6 text-sm md:text-base text-white text-opacity-60">{BaseInfo.description}
-                        </p>
+                        {/* <p className="mt-6 text-sm md:text-base text-white text-opacity-60">{BaseInfo.description}
+                        </p> */}
                         {/* Button */}
                         <button className='md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg mt-8 bg-blue-700 hover:bg-blue-900 flex items-center space-x-2 '>
                             <span>Download CV</span>
